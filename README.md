@@ -22,7 +22,6 @@
     # Verificar archivo: /app/controllers/application_controller.rb
     class ApplicationController < ActionController::Base
       def home
-        render html: "Hola Mundo!"
       end
     end
 
@@ -146,4 +145,11 @@
     # Exigir usuario authenticated, colocar esto en cada controlador de scaffold
     before_action :authenticate_user!
     
+### 4 Validaciones
+
+    # Solo numerico
+    <%= link_to "Categorias", "categoria#index", :class => 'navbar-link'  %>
+    <%= link_to "Productos", "productos#index", :class => 'navbar-link'  %>
     
+    # Exigir usuario authenticated, colocar esto en cada controlador de scaffold
+    before_action :authenticate_user!
