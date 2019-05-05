@@ -1,7 +1,5 @@
 # README
 
-## PROCEDIMIENTO PARA EL EXAMEN
-
 ### 1. PREVIAMENTE
 
     # Generar un proyecto nuevo
